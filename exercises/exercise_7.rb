@@ -15,5 +15,9 @@ puts "Give me a store name:"
 
 if @store4.valid? == false
   puts @store4.errors.messages
+
+  @store4.errors.full_messages.each do |message|
+    puts message
+  end
 end
 
