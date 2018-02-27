@@ -5,6 +5,7 @@ require_relative './exercise_2'
 puts "Exercise 3"
 puts "----------"
 
+puts Store.all
 @store3 = Store.find(3)
 @store3.destroy
 

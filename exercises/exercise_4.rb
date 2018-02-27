@@ -14,7 +14,7 @@ Store.create(name: 'Surrey',
 
 Store.create(name: 'Whistler',
   annual_revenue: 1900000,
-  mens_apparel: true,
+  mens_apparel: false,
   womens_apparel: false
 )
 
